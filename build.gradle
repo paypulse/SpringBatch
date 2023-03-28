@@ -31,6 +31,7 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	implementation 'com.microsoft.sqlserver:mssql-jdbc'
 	implementation 'com.h2database:h2'
+	implementation 'mysql:mysql-connector-java:8.0.21'
 
 	annotationProcessor 'org.projectlombok:lombok'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
